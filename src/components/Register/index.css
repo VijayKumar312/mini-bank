@@ -1,0 +1,27 @@
+.register-cont {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.register-cont div {
+  margin-top: 12px;
+}
+.register-cont button {
+  outline: none;
+  cursor: pointer;
+  margin-top: 12px;
+}
+.error {
+  color: red;
+  font-size: 11px;
+  margin-top: 7px;
+}
+.buttons-container {
+  display: flex;
+}
+.buttons-container button {
+  margin-right: 5px;
+}
